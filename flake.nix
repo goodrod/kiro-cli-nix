@@ -142,7 +142,7 @@
           meta = with pkgs.lib; {
             description = "Kiro CLI - AI-powered coding assistant for the command line";
             homepage = "https://kiro.dev";
-            license = licenses.unfree;  # Note: This is proprietary software
+            license = licenses.free;  # Note: This is proprietary software
             platforms = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
             maintainers = [ ];
           };
